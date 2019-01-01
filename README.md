@@ -1,3 +1,11 @@
+## Exercise
+
+Create a page on which you transform <a href="authors.json">this JSON</a> into HTML using Handlebars. You can lay out the page any way you wish, but all of the data about each author should be shown. There is no need to make an ajax request to get this data. You can just cut and paste it into your code and store it in a variable.
+
+#### My [solution](https://github.com/doctor-uz/Handlebars).
+
+
+
 # Client-side Templates with Handlebars
 
 We often want to generate HTML dynamically using values that can only be known at runtime as text or in attributes. If there is not too much HTML to generate, it is not too hard to do this in Javascript. If there is a lot of HTML, however, it becomes more difficult. It is hard to write this code because we are doing two things at once - writing HTML and writing Javascript. Such code is very often hard to read and update as well.
@@ -118,10 +126,6 @@ When the context is set to an array, Handlebars will automatically iterate over 
 
 In the example above, if the object that is passed to the template has no `authors` property, an empty string would be returned.
 
-## Exercise
 
-Create a page on which you transform <a href="authors.json">this JSON</a> into HTML using Handlebars. You can lay out the page any way you wish, but all of the data about each author should be shown. There is no need to make an ajax request to get this data. You can just cut and paste it into your code and store it in a variable.
 
-## Bonus Exercise
 
-Modify your <a href="wk3_spotify_search">Spotify project</a> to use Handlebars to generate the HTML for your search results.
